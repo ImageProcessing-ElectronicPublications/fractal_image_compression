@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="../../src/arrays.c" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../src/decompress.c" open="0" top="0" tabpos="0">
+		<Cursor position="1667" topLine="53" />
+	</File>
+	<File name="../../src/fi_load.c" open="1" top="0" tabpos="2">
+		<Cursor position="6689" topLine="165" />
+	</File>
+</CodeBlocks_layout_file>

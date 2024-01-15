@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CPU driven">
+      <UniqueIdentifier>{e0e0e71a-6e32-4e79-b5c7-afd5b1a6e698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU driven">
+      <UniqueIdentifier>{04d7c5b1-6017-4c20-9d85-3b4efa11ce02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\fi_save_blocks_search.c" />
+    <ClCompile Include="..\src\arrays.c" />
+    <ClCompile Include="..\src\compress.c" />
+    <ClCompile Include="..\src\fi_save.c" />
+    <ClCompile Include="..\src\fi_save_blocks_compression.c" />
+    <ClCompile Include="..\src\image_misc.c" />
+    <ClCompile Include="..\src\tga_load.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\src\gpu_driven\fi_save_blocks_search_workers.cu">
+      <Filter>GPU driven</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

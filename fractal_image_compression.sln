@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compress", "compress\compress.vcxproj", "{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decompress", "decompress\decompress.vcxproj", "{F97F886B-3E32-4790-B091-A4CBF1B91946}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda_compress", "cuda_compress\cuda_compress.vcxproj", "{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cudaold_compress", "cudaold_compress\cudaold_compress.vcxproj", "{D38F1866-2265-48A0-AD93-3A5E05C69163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release (MPI)|Win32 = Release (MPI)|Win32
+		Release (MPI)|x64 = Release (MPI)|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Debug|Win32.Build.0 = Debug|Win32
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Debug|x64.ActiveCfg = Debug|Win32
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Release (MPI)|Win32.ActiveCfg = Release (MPI)|Win32
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Release (MPI)|Win32.Build.0 = Release (MPI)|Win32
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Release (MPI)|x64.ActiveCfg = Release (MPI)|Win32
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Release|Win32.ActiveCfg = Release|Win32
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Release|Win32.Build.0 = Release|Win32
+		{65DA45D0-C86F-4A4A-8169-2AA90B68AA47}.Release|x64.ActiveCfg = Release|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Debug|Win32.Build.0 = Debug|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Debug|x64.ActiveCfg = Debug|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Release (MPI)|Win32.ActiveCfg = Release|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Release (MPI)|Win32.Build.0 = Release|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Release (MPI)|x64.ActiveCfg = Release|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Release|Win32.ActiveCfg = Release|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Release|Win32.Build.0 = Release|Win32
+		{F97F886B-3E32-4790-B091-A4CBF1B91946}.Release|x64.ActiveCfg = Release|Win32
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Debug|Win32.Build.0 = Debug|Win32
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Debug|x64.ActiveCfg = Debug|x64
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Debug|x64.Build.0 = Debug|x64
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Release (MPI)|Win32.ActiveCfg = Release (MPI)|Win32
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Release (MPI)|Win32.Build.0 = Release (MPI)|Win32
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Release (MPI)|x64.ActiveCfg = Release|x64
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Release (MPI)|x64.Build.0 = Release|x64
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Release|Win32.ActiveCfg = Release|Win32
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Release|Win32.Build.0 = Release|Win32
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Release|x64.ActiveCfg = Release|x64
+		{AA1B258B-9E5E-478B-9D70-1B6EA5F7E8E9}.Release|x64.Build.0 = Release|x64
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Debug|Win32.Build.0 = Debug|Win32
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Debug|x64.ActiveCfg = Debug|x64
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Debug|x64.Build.0 = Debug|x64
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Release (MPI)|Win32.ActiveCfg = Release (MPI)|Win32
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Release (MPI)|Win32.Build.0 = Release (MPI)|Win32
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Release (MPI)|x64.ActiveCfg = Release|x64
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Release (MPI)|x64.Build.0 = Release|x64
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Release|Win32.ActiveCfg = Release|Win32
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Release|Win32.Build.0 = Release|Win32
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Release|x64.ActiveCfg = Release|x64
+		{D38F1866-2265-48A0-AD93-3A5E05C69163}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

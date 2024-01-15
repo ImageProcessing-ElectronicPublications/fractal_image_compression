@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release (MPI)" />
+	<File name="../../src/arrays.c" open="0" top="0" tabpos="0">
+		<Cursor position="419" topLine="3" />
+	</File>
+	<File name="../../src/compress.c" open="1" top="0" tabpos="1">
+		<Cursor position="102" topLine="7" />
+	</File>
+	<File name="../../src/cpu_driven/fi_save_blocks_search_workers.c" open="0" top="0" tabpos="2">
+		<Cursor position="6248" topLine="178" />
+	</File>
+	<File name="../../src/fi_save.c" open="1" top="0" tabpos="2">
+		<Cursor position="741" topLine="18" />
+	</File>
+	<File name="../../src/fi_save_blocks_compression.c" open="1" top="1" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../src/fi_save_blocks_search.c" open="1" top="0" tabpos="4">
+		<Cursor position="5069" topLine="140" />
+	</File>
+</CodeBlocks_layout_file>

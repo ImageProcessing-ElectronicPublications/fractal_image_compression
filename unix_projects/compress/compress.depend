@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1447453270 source:/media/CC01-601D/fractal_image_compression/src/arrays.c
+	"arrays.h"
+
+1447378552 /media/CC01-601D/fractal_image_compression/src/arrays.h
+	<stdbool.h>
+
+1456175332 source:/media/CC01-601D/fractal_image_compression/src/compress.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<ctype.h>
+	<mpi.h>
+	"tga_load.h"
+	"image_misc.h"
+	"fi_save.h"
+
+1446493988 /media/CC01-601D/fractal_image_compression/src/tga_load.h
+	"image.h"
+
+1455143304 /media/CC01-601D/fractal_image_compression/src/image.h
+	<stdbool.h>
+
+1454630460 /media/CC01-601D/fractal_image_compression/src/image_misc.h
+	<stdbool.h>
+	"image.h"
+
+1447435442 /media/CC01-601D/fractal_image_compression/src/fi_save.h
+	"image.h"
+
+1457447856 source:/media/CC01-601D/fractal_image_compression/src/cpu_driven/fi_save_blocks_search_workers.c
+	<stdio.h>
+	<string.h>
+	"../image_misc.h"
+	"../fi_save_blocks_search_workers.h"
+
+1456176240 /media/CC01-601D/fractal_image_compression/src/fi_save_blocks_search_workers.h
+	"image.h"
+
+1454626304 source:/media/CC01-601D/fractal_image_compression/src/fi_save_blocks_compression.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arrays.h"
+	"fi_file.h"
+	"fi_save.h"
+	"image_misc.h"
+	"fi_save_blocks_compression.h"
+
+1446855158 /media/CC01-601D/fractal_image_compression/src/fi_file.h
+
+1454626284 /media/CC01-601D/fractal_image_compression/src/fi_save_blocks_compression.h
+
+1456175564 source:/media/CC01-601D/fractal_image_compression/src/fi_save.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<mpi.h>
+	"arrays.h"
+	"fi_file.h"
+	"fi_save.h"
+	"fi_save_blocks_compression.h"
+	"fi_save_blocks_search.h"
+	"image_misc.h"
+
+1454624988 /media/CC01-601D/fractal_image_compression/src/fi_save_blocks_search.h
+	"image.h"
+
+1454630464 source:/media/CC01-601D/fractal_image_compression/src/image_misc.c
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"image_misc.h"
+
+1446611444 source:/media/CC01-601D/fractal_image_compression/src/tga_load.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tga_file.h"
+	"tga_load.h"
+
+1446489332 /media/CC01-601D/fractal_image_compression/src/tga_file.h
+
+1456177190 source:/media/CC01-601D/fractal_image_compression/src/fi_save_blocks_search.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<Windows.h>
+	<process.h>
+	<pthread.h>
+	<mpi.h>
+	"image_misc.h"
+	"fi_save.h"
+	"fi_save_blocks_search.h"
+	"fi_save_blocks_search_workers.h"
+
+1365770559 /usr/include/mpich2//mpi.h
+	"mpio.h"
+	"mpicxx.h"
+
+1365770561 /usr/include/mpich2//mpio.h
+	"mpi.h"
+
+1365770562 /usr/include/mpich2//mpicxx.h
+	<stdio.h>
+
